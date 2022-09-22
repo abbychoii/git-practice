@@ -1,9 +1,9 @@
-def merge_lists(list_a, list_b):
+def merge_lists(list_b, list_c):
     """ Returns a new list which is
     a combination of list_a and list_b
     without any duplicate elements.
     """
-    return list(set(list_a) | set(list_b))
+    return list(set(list_b) | set(list_c))
 
 
 if __name__ == "__main__":
